@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>数星澜资源网站</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #222; /* 将背景颜色设置为深色 */
+        }
+
+        /* 导航栏样式 */
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+       .hidden {
+            display: none;
+        }
+
+        /* 网站标识和标题样式 */
+       .site-logo {
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+
+       .site-logo img {
+            height: 50px;
+            margin-right: 10px;
+        }
+
+        /* 主体内容样式 */
+       .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+       .article {
+            display: flex;
+            width: 80%;
+            margin: 10px 0;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+        }
+
+       .article img {
+            width: 150px;
+            height: 100px;
+            margin-right: 20px;
+        }
+
+       .article div {
+            flex: 1;
+        }
+
+       .article h2 {
+            margin: 0;
+            font-size: 1.2em;
+        }
+
+       .article p {
+            margin: 5px 0 0;
+            color: #555;
+        }
+
+        /* 页脚样式 */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div>
+            <a href="#">首页</a>
+            <a href="#">文章</a>
+            <a href="#">下载</a>
+            <a href="#" class="hidden">VIP专区</a>
+        </div>
+    </nav>
+    <div class="site-logo">
+        <img src="shuxinglan - 副本.jpg" alt="数星澜 logo">
+        <span>数星澜</span>
+    </div>
+    <div class="content">
+        <div class="article">
+            <img src="article1.jpg" alt="文章图片">
+            <div>
+                <h2>文章标题 1</h2>
+                <p>文章描述 1</p>
+            </div>
+        </div>
+        <div class="article">
+            <img src="article2.jpg" alt="文章图片">
+            <div>
+                <h2>文章标题 2</h2>
+                <p>文章描述 2</p>
+            </div>
+        </div>
+        <!-- 可以添加更多文章 -->
+    </div>
+    <footer>
+        <p>© 2024 数星澜资源网站. 版权所有.</p>
+    </footer>
+</body>
+
+</html>
